@@ -1,6 +1,6 @@
 # ✅ To-do API
 
-A simple RESTful API for managing tasks built with express for CRUD operations and user-specific task management.
+A simple REST API for managing tasks built with express for user-specific task management.
 
 ## 🚀 Features
 
@@ -31,10 +31,6 @@ todo/
 
 - `POST /api/users/register`
 - `POST /api/users/login`
-
-## 📘 API Documentation
-
-👉 [View Postman Documentation](https://documenter.getpostman.com/view/41313813/2sB3HjNgrv)
 
 ## 🛠 Installation
 

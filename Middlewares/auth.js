@@ -23,7 +23,7 @@ export const auth = (req, res, next) => {
     }
 
     // Users data
-    req.user = { _id: decode._id, role: decode.role };
+    req.user = { _id: decode._id };
     next();
   } catch (error) {
     return res.status(500).json({
